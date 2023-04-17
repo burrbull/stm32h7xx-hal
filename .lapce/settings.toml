@@ -1,0 +1,4 @@
+[lapce-rust]
+check.allTargets = false
+check.targets = "thumbv7em-none-eabihf"
+cargo.features = ["rt", "stm32h743v", "defmt"]
